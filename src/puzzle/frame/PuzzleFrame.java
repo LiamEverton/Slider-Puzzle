@@ -26,7 +26,34 @@ public class PuzzleFrame extends JFrame {
 		//Adds a WindowListener to listen for when the frame has been closed by the user.
 		this.addWindowListener(puzzleFrameListener);
 
+		loadIcons(puzzleFrameListener);
+
 		this.setVisible(true);
+	}
+
+	/***
+	 * Loads the required puzzle icons.
+	 */
+	private void loadIcons(PuzzleFrameListener puzzleFrameListener) {
+
+		//Iterate through
+		for (int imageCounter = 0; imageCounter <= 11; imageCounter++) {
+			//Create new button with an empty text, since we can't hide text easily.
+			JButton button = new JButton("");
+			//Example: resources/bart0.jpg
+			ImageIcon icon = new ImageIcon(Main.IMAGE_DIRECTOY + Main.IMAGE_PREFIX + imageCounter + Main.IMAGE_TYPE);
+
+			//Bind the icon to the button.
+			button.setIcon(icon);
+
+			//Sets the event's action name for when an event fires.
+			button.setActionCommand(Main.IMAGE_PREFIX + imageCounter + " clicked.");
+
+			button.addActionListener(puzzleFrameListener);
+
+			//Add the button the frame.
+			this.add(button);
+		}
 	}
 
 }
