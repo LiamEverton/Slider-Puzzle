@@ -21,7 +21,7 @@ public class PuzzleFrame extends JFrame {
 	private JLabel scoreLabel;
 
 	/**
-	 * Constructs a new puzzle.PuzzleFrame.
+	 * Constructs a PuzzleFrame.
 	 *
 	 * @param puzzle     - the specified Puzzle game which this PuzzleFrame is associated with.
 	 * @param frameTitle - the specified title of this PuzzleFrame.
