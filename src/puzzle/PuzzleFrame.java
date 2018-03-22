@@ -61,7 +61,6 @@ public class PuzzleFrame extends JFrame {
 			public void actionPerformed(ActionEvent e) {
 				do {
 					gamePanel.randomizeTiles();
-					System.out.println(puzzle.isSolvable());
 				}
 				while (!puzzle.isSolvable());
 			}
