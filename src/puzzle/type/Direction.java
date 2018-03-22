@@ -12,7 +12,10 @@ public enum Direction {
 	WEST(-1, 0),
 	SOUTH(0, 1);
 
+	//The offset value of the X coordinate.
 	private int offsetX;
+
+	//The offset value of the Y coordinate.
 	private int offsetY;
 
 	/**
