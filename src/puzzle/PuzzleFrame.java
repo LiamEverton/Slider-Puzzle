@@ -10,7 +10,7 @@ import java.awt.event.ActionListener;
 /**
  * PuzzleFrame, used to hold the contents of the game's GUI.
  *
- * @author Liam
+ * @author Liam Everton
  */
 public class PuzzleFrame extends JFrame {
 
