@@ -1,20 +1,14 @@
 package puzzle;
 
-import puzzle.frame.PuzzleFrame;
-
 /**
- * Created by Liam on 3/21/2018.
+ * Main, the main entry point of the application.
+ *
+ * @Author Liam Everton.
  */
 public class Main {
 
-	public static final String IMAGE_DIRECTOY = "resources/";
-
-	public static final String IMAGE_PREFIX = "bart";
-
-	public static final String IMAGE_TYPE = ".jpg";
-
 	public static void main(String[] args) {
-		new PuzzleFrame("Puzzle Game");
+		new Puzzle(3, 4);
 	}
 
 }
