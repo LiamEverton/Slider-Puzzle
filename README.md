@@ -1,5 +1,5 @@
 # Slider-Puzzle
-1st Year Undergradute - Lancaster University Final Assignment
+1st Year Undergradute - University Final Assignment
 
 ## Overview
 
